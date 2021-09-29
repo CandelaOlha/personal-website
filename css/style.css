@@ -4,3 +4,29 @@
   margin: 0;
   padding: 0;
 }
+
+/* General fonts */
+
+.main-title {
+  background: linear-gradient(to bottom, #5851db 0%, #833ab44d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: #111827;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
