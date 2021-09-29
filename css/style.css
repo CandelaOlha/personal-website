@@ -30,3 +30,43 @@
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+/* Header styles */
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.nav-menu-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-menu-item {
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.nav-menu-link {
+  color: #111827;
+  font-size: 18px;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+/* Menu links on hover */
+
+.nav-menu-link:hover {
+  border-bottom: 2px solid #111827;
+}
