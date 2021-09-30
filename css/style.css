@@ -235,3 +235,46 @@
   border-bottom: 2px solid #3350e4;
   color: #3350e4;
 }
+
+/* Footer styles */
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.contact-section-content-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.credits {
+  color: #4b5563;
+  font-size: 18px;
+}
+
+.footer-social-media-icons {
+  display: flex;
+}
+
+.footer-social-media-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.footer-social-media-item i,
+.footer-social-media-item .fab.fa-github {
+  color: #4b5563;
+  font-size: 20px;
+}
+
+.footer-social-media-item i:hover,
+.footer-social-media-item .fab.fa-github:hover {
+  color: #405de6;
+}
