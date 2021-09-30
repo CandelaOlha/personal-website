@@ -182,9 +182,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px;
+  margin: 10px;
   padding: 40px;
-  width: calc(100% / 3 - (20px * 2));
+  width: calc(100% / 3 - (10px * 2));
 }
 
 .project-icon {
@@ -277,4 +277,68 @@
 .footer-social-media-item i:hover,
 .footer-social-media-item .fab.fa-github:hover {
   color: #405de6;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 998px) {
+  .project-card {
+    width: calc(100% / 2 - (10px * 2));
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .about-text-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .hero-section-main-text {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav-menu-list {
+    display: none;
+  }
+  .project-card {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .hero-section-main-text {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .contact-section-content-container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer-social-media-icons {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header,
+  .section,
+  .hero-section,
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .contact-description,
+  .email-address-text,
+  .email-address-link {
+    font-size: 20px;
+  }
 }
