@@ -119,7 +119,7 @@ html {
 /* Class to show mobile menu with JS */
 
 .show-mobile-menu {
-  padding: 20px 40px;
+  padding: 40px;
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ html {
   background-color: transparent;
   border: none;
   position: relative;
-  left: 200px;
+  left: 140px;
 }
 
 .close-mobile-menu i {
