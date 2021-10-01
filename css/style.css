@@ -404,6 +404,9 @@ html {
   .hero-section-main-text {
     font-size: 48px;
   }
+  .section-title {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 470px) {
