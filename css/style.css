@@ -121,7 +121,7 @@ html {
 
 .show-mobile-menu {
   display: flex;
-  padding: 40px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -129,7 +129,7 @@ html {
   background-color: transparent;
   border: none;
   position: relative;
-  left: 140px;
+  left: 160px;
 }
 
 .close-mobile-menu i {
@@ -194,6 +194,7 @@ html {
   display: flex;
   height: 100vh;
   justify-content: center;
+  max-height: -webkit-fill-available;
   padding: 0 40px;
 }
 
