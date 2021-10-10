@@ -1,4 +1,9 @@
 html {
+  background: linear-gradient(
+    180deg,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(255, 255, 255, 1) 50%
+  );
   scroll-behavior: smooth;
 }
 
@@ -50,7 +55,7 @@ html {
 
 .header {
   align-items: center;
-  background-color: #fff;
+  background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   padding: 20px 40px;
@@ -65,6 +70,10 @@ html {
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
+}
+
+.main-title-link {
+  text-decoration: none;
 }
 
 .nav-menu-list {
@@ -218,6 +227,7 @@ html {
 /* About section styles */
 
 .about-section-content-container {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -266,25 +276,31 @@ html {
 }
 
 .project-card {
-  background-color: #f5f5f5;
+  background-color: #fff;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10px;
-  padding: 40px;
-  width: calc(100% / 3 - (10px * 2));
+  margin: 40px 20px;
+  padding: 25px;
+  width: calc(100% / 3 - (20px * 2));
 }
 
-.project-icon {
-  font-size: 36px;
-  margin-bottom: 5px;
+.project-image {
+  margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .project-name {
   color: #111827;
   font-size: 24px;
+  font-weight: 600;
   margin-bottom: 20px;
+}
+
+.coming-soon-project {
+  color: #405ce698;
 }
 
 .project-links {
@@ -372,7 +388,7 @@ html {
 
 @media screen and (max-width: 998px) {
   .project-card {
-    width: calc(100% / 2 - (10px * 2));
+    width: calc(100% / 2 - (20px * 2));
   }
 }
 
