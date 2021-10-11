@@ -116,6 +116,7 @@ html {
 }
 
 .hamburger-menu i {
+  color: #111827;
   font-size: 24px;
 }
 
@@ -414,7 +415,10 @@ html {
 
 @media screen and (max-width: 670px) {
   .header {
-    backdrop-filter: none;
+    position: static;
+  }
+  .hero-section {
+    height: calc(100vh - 80px);
   }
   .nav-menu-list {
     display: none;
