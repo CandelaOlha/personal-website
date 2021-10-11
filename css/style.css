@@ -12,12 +12,9 @@ html {
 /* General fonts */
 
 .main-title {
-  background: linear-gradient(to bottom, #5851db 0%, #833ab44d 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #111827;
   font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .section-title {
@@ -68,7 +65,17 @@ html {
 }
 
 .main-title-link {
+  align-items: center;
+  display: flex;
   text-decoration: none;
+}
+
+.circle {
+  background-color: #405de6;
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 15px;
+  width: 40px;
 }
 
 .nav-menu-list {
@@ -83,7 +90,7 @@ html {
 
 .nav-menu-link {
   color: #111827;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 0px;
   text-decoration: none;
 }
@@ -229,7 +236,6 @@ html {
 }
 
 .about-text-container {
-  margin-bottom: 60px;
   width: 50%;
 }
 
@@ -356,7 +362,7 @@ html {
 
 .credits {
   color: #4b5563;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .footer-social-media-icons {
@@ -389,6 +395,7 @@ html {
 
 @media screen and (max-width: 840px) {
   .about-text-container {
+    margin-bottom: 60px;
     width: 100%;
   }
 }
