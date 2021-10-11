@@ -1,4 +1,10 @@
 html {
+  background: rgb(249, 249, 249);
+  background: linear-gradient(
+    180deg,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(255, 255, 255, 1) 50%
+  );
   scroll-behavior: smooth;
 }
 
@@ -47,7 +53,7 @@ html {
 
 .header {
   align-items: center;
-  background-color: #fff;
+  backdrop-filter: blur(20px);
   display: flex;
   justify-content: center;
   padding: 20px 40px;
@@ -407,6 +413,9 @@ html {
 }
 
 @media screen and (max-width: 670px) {
+  .header {
+    backdrop-filter: none;
+  }
   .nav-menu-list {
     display: none;
   }
