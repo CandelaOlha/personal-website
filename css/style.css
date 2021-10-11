@@ -290,9 +290,14 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 40px 20px;
+  margin: 40px 0 40px 0;
   padding: 25px;
   width: calc(100% / 3 - (20px * 2));
+}
+
+.project-card:nth-child(3n + 2) {
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .project-image {
@@ -395,8 +400,10 @@ html {
 /* Responsive styles */
 
 @media screen and (max-width: 998px) {
-  .project-card {
+  .project-card,
+  .project-card:nth-child(3n + 2) {
     width: calc(100% / 2 - (20px * 2));
+    margin: 40px 20px;
   }
 }
 
@@ -426,7 +433,8 @@ html {
   .hamburger-menu {
     display: block;
   }
-  .project-card {
+  .project-card,
+  .project-card:nth-child(3n + 2) {
     margin: 20px 0;
     width: 100%;
   }
