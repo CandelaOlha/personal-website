@@ -395,7 +395,7 @@ html {
   .project-card,
   .project-card:nth-child(3n + 2) {
     width: calc(100% / 2 - (20px * 2));
-    margin: 40px 20px;
+    margin: 20px;
   }
 }
 
@@ -421,7 +421,7 @@ html {
   }
   .project-card,
   .project-card:nth-child(3n + 2) {
-    margin: 40px 0;
+    margin: 20px 0 40px 0;
     width: 100%;
   }
 }
