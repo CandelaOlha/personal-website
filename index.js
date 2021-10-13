@@ -6,9 +6,16 @@ const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
 
 hamburgerMenu.onclick = () => {
     mobileMenu.classList.toggle("show-mobile-menu");
-    hamburgerMenu.innerHTML = `
-    <i class="fas fa-times"></i>
-    `;
+    if (mobileMenu.classList.contains("show-mobile-menu")) {
+        hamburgerMenu.innerHTML = `
+        <i class="fas fa-times"></i>
+        `;
+    }
+    else {
+        hamburgerMenu.innerHTML = `
+        <i class="fas fa-bars"></i>
+        `;
+    }
 }
 
 for (let i = 0; i < mobileMenuLinks.length; i++) {
