@@ -1,16 +1,14 @@
-const openMobileMenu = document.querySelector(".hamburger-menu");
-const closeMobileMenu = document.querySelector(".close-mobile-menu");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 const mobileMenu = document.querySelector(".mobile-menu");
 const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
 
 // Mobile menu functions
 
-openMobileMenu.onclick = () => {
-    mobileMenu.classList.add("show-mobile-menu");
-}
-
-closeMobileMenu.onclick = () => {
-    mobileMenu.classList.remove("show-mobile-menu");
+hamburgerMenu.onclick = () => {
+    mobileMenu.classList.toggle("show-mobile-menu");
+    hamburgerMenu.innerHTML = `
+    <i class="fas fa-times"></i>
+    `;
 }
 
 for (let i = 0; i < mobileMenuLinks.length; i++) {
