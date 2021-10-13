@@ -21,5 +21,8 @@ hamburgerMenu.onclick = () => {
 for (let i = 0; i < mobileMenuLinks.length; i++) {
     mobileMenuLinks[i].onclick = () => {
         mobileMenu.classList.remove("show-mobile-menu");
+        hamburgerMenu.innerHTML = `
+        <i class="fas fa-bars"></i>
+        `;
     }
 }
