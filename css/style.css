@@ -282,7 +282,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 40px 0 40px 0;
+  margin: 20px 0 40px 0;
   padding: 40px 30px;
   width: calc(100% / 3 - (20px * 2));
 }
