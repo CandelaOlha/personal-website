@@ -2,14 +2,14 @@
 
 ## About this project
 
-This is a website that I made with the aim of showing my work as a Trainee Frontend Developer.
+This is a website I made with the aim of showing my work as a Trainee Frontend Developer.
 
 I used Figma to create a simple portfolio layout and then turned it into reality with HTML, CSS and basic Javascript.
 
 ## Technologies
 
-- HTML 5
-- CSS 3
+- HTML5
+- CSS3
 - Javascript
 
 ## Design resources
