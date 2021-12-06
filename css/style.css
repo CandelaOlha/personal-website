@@ -272,23 +272,15 @@ html {
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-card {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 0 40px 0;
-  padding: 40px 30px;
-  width: calc(100% / 3 - (20px * 2));
-}
-
-.project-card:nth-child(3n + 2) {
-  margin-right: 60px;
-  margin-left: 60px;
+  margin: 20px 0;
+  width: calc(100% / 2 - (20px * 2));
 }
 
 .project-image {
@@ -390,14 +382,6 @@ html {
 
 /* Responsive styles */
 
-@media screen and (max-width: 998px) {
-  .project-card,
-  .project-card:nth-child(3n + 2) {
-    width: calc(100% / 2 - (20px * 2));
-    margin: 20px;
-  }
-}
-
 @media screen and (max-width: 840px) {
   .about-text-container {
     margin-bottom: 60px;
@@ -409,6 +393,12 @@ html {
   .hero-section-main-text {
     font-size: 60px;
   }
+  .project-card {
+    width: 100%;
+  }
+  .project-card:nth-child(odd) {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -417,11 +407,6 @@ html {
   }
   .hamburger-menu {
     display: block;
-  }
-  .project-card,
-  .project-card:nth-child(3n + 2) {
-    margin: 20px 0 40px 0;
-    width: 100%;
   }
 }
 
