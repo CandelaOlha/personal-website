@@ -35,17 +35,18 @@ html {
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 20px;
+  transition: 0.2s;
 }
 
 .link {
-  color: #405de6;
+  color: #111827;
   text-decoration: none;
 }
 
 /* Links on hover */
 
 .link:hover {
-  color: #3350e4;
+  border-bottom: 2px solid #111827;
 }
 
 /* Header styles */
@@ -274,6 +275,10 @@ html {
   justify-content: space-between;
 }
 
+.project-content-container {
+  text-decoration: none;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -294,29 +299,15 @@ html {
   margin-bottom: 20px;
 }
 
-.coming-soon-project {
-  color: #405ce698;
-}
-
-.project-links {
-  display: flex;
-  justify-content: space-between;
-}
-
-.fab.fa-github {
-  color: #111827;
-  font-size: 24px;
-}
-
-.fab.fa-github:hover {
-  color: #405de6;
-}
-
 /* Contact section styles */
 
 .contact-description {
   font-size: 24px;
   margin: 100px 0 40px;
+}
+
+.email-address-container {
+  display: inline-block;
 }
 
 .email-address-text {
@@ -326,6 +317,7 @@ html {
 }
 
 .email-address-link {
+  color: #405de6;
   font-size: 24px;
 }
 
