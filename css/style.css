@@ -283,7 +283,6 @@ html {
 }
 
 .project-content-container {
-  position: relative;
   text-decoration: none;
 }
 
@@ -301,18 +300,15 @@ html {
 }
 
 .project-name {
-  color: #fefefe;
+  color: #111827;
   font-size: 24px;
   font-weight: 500;
-  left: 20px;
   margin-bottom: 20px;
-  position: absolute;
-  top: 20px;
 }
 
 .project-link-item {
   list-style-type: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .project-link i {
@@ -407,8 +403,11 @@ html {
   .project-card {
     width: 100%;
   }
-  .project-card:nth-child(odd) {
+  .project-card {
     margin-bottom: 60px;
+  }
+  .project-card:last-child {
+    margin-bottom: 0;
   }
 }
 
