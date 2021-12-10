@@ -35,18 +35,18 @@ html {
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 20px;
-  transition: 0.2s;
 }
 
 .link {
   color: #111827;
   text-decoration: none;
+  transition: 0.2s linear;
 }
 
 /* Links on hover */
 
 .link:hover {
-  border-bottom: 2px solid #111827;
+  border-bottom: 1px solid #111827;
 }
 
 /* Header styles */
@@ -99,12 +99,13 @@ html {
   font-size: 16px;
   padding: 10px 0px;
   text-decoration: none;
+  transition: 0.2s linear;
 }
 
 /* Menu links on hover */
 
 .nav-menu-link:hover {
-  border-bottom: 2px solid #111827;
+  border-bottom: 1px solid #111827;
 }
 
 /* Mobile menu styles */
@@ -276,6 +277,7 @@ html {
 }
 
 .project-content-container {
+  position: relative;
   text-decoration: none;
 }
 
@@ -293,10 +295,24 @@ html {
 }
 
 .project-name {
-  color: #111827;
+  bottom: 20px;
+  color: #fefefe;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
+  left: 20px;
   margin-bottom: 20px;
+  position: absolute;
+}
+
+.project-link-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.project-link i {
+  color: #111827;
+  font-size: 16px;
+  margin-left: 5px;
 }
 
 /* Contact section styles */
@@ -317,15 +333,7 @@ html {
 }
 
 .email-address-link {
-  color: #405de6;
   font-size: 24px;
-}
-
-/* Email address link on hover */
-
-.email-address-link:hover {
-  border-bottom: 2px solid #3350e4;
-  color: #3350e4;
 }
 
 /* Footer styles */
