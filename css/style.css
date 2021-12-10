@@ -339,7 +339,13 @@ html {
 }
 
 .email-address-link {
+  border-bottom: 1px solid #111827;
   font-size: 24px;
+  transition: 0.2s linear;
+}
+
+.email-address-link:hover {
+  border-bottom: transparent;
 }
 
 /* Footer styles */
