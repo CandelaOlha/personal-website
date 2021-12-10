@@ -301,13 +301,13 @@ html {
 }
 
 .project-name {
-  bottom: 20px;
   color: #fefefe;
   font-size: 24px;
   font-weight: 500;
   left: 20px;
   margin-bottom: 20px;
   position: absolute;
+  top: 20px;
 }
 
 .project-link-item {
