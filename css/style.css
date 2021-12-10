@@ -164,7 +164,7 @@ html {
 }
 
 .mobile-menu-link:hover {
-  border-bottom: 2px solid #111827;
+  border-bottom: 1px solid #111827;
 }
 
 .mobile-menu-footer {
@@ -182,7 +182,13 @@ html {
 }
 
 .mobile-menu-footer-link {
-  border-bottom: 2px solid #111827;
+  border-bottom: 1px solid #111827;
+}
+
+.mobile-menu-footer i {
+  color: #111827;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* All sections styles */
