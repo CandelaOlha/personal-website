@@ -8,8 +8,8 @@ I used Figma to create a simple portfolio layout and then turned it into reality
 
 ## Technologies
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Javascript
 
 ## Design resources
